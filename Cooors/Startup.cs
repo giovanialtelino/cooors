@@ -26,8 +26,11 @@ namespace Cooors
             .AllowAnyMethod()
             .AllowCredentials()));
 
+services.AddHealthChecks();
 
             services.AddControllers();
+
+
 
         }
 
